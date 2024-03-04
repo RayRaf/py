@@ -13,3 +13,6 @@ async def get_home():
 def get_home():
     return "About message"
 
+@app.get("/hello")
+def get_home():
+    return "Hello from main branch"
