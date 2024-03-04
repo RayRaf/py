@@ -11,4 +11,5 @@ async def get_home():
 
 @app.get("/about")
 def get_home():
-    return "About"
+    return "About message"
+
