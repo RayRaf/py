@@ -12,3 +12,8 @@ async def get_home():
 @app.get("/about")
 def get_home():
     return "About"
+
+
+@app.get("/hello")
+def get_home():
+    return "Hell!"
