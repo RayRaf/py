@@ -12,7 +12,3 @@ async def get_home():
 @app.get("/about")
 def get_home():
     return "About"
-
-@app.get("/contacts")
-def get_home():
-    return "Contacts"
