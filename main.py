@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 async def main_page():
-    return "Main page from main branch!"
+    return "Main page from main branch! Hello!"
 
 @app.get("/home")
 async def get_home():
