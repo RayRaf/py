@@ -16,4 +16,4 @@ def get_home():
 
 @app.get("/hello")
 def get_home():
-    return "Hell!"
+    return "Hello from test-new-func branch!"
